@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ratings01"
+            android:id="@+id/imgInfo"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Restaurante"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/lblNombreInfo"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoria "
+                android:textSize="11dp"
+                android:textColor="#000"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/lblcategoriaInfo"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion "
+                android:textColor="#000"
+                android:textSize="9dp"
+                android:textStyle="italic"
+
+                android:id="@+id/lbldireccionInfo"/>
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ratings01"
+                android:layout_gravity="bottom"
+                android:id="@+id/imgratingInfo"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
